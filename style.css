@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: hsl(0, 0%, 8%);
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+.container{
+    max-width: 420px;
+}
+.content{
+    width: 23rem;
+    background-color: hsl(0, 0%, 12%);
+    text-align: center;
+    padding: 1.8rem 2rem;
+    border-radius: 12px;
+}
+.per-info img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.per-info h2{
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 1rem;
+}
+.per-info .place{
+    color: hsl(75, 94%, 57%);
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 5px;
+} 
+.job{
+    color: hsl(0, 1%, 65%);
+    margin-top: 1.5em;
+    font-size: 13px;
+    margin-bottom: 20px;
+} 
+
+.social a{
+background-color: hsl(0, 0%, 20%);
+text-decoration: none;
+color: #fff;
+padding: 12px 0;
+border-radius: 8px;
+display: flex;
+justify-content: center;
+margin-bottom: 15px;
+transition: all .3s ease-in-out;
+font-weight: 400;
+}
+.social a:hover{
+    background-color:  hsl(75, 94%, 57%);
+    color: #000;
+    transform: scale(1.1);
+}
+@media only screen and (max-width:425px){
+    .container{
+        width: 90%;
+        margin-top: 0;
+        
+    }
+    .content{
+        width: 18rem;
+        height: 63vh;
+        margin: 0 auto;
+        
+    }
+    .job{
+        font-size: 10px;
+    }
+    .social a{
+        padding: 10px 0;
+        font-size: 13px;
+    }
+}
